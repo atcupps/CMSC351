@@ -1,0 +1,13 @@
+from q4 import q4_fun
+import math
+
+def test_q4():
+    for n in range(0, 100):
+        ABCDE = q4_fun(n)
+        assert(n == ABCDE['A'])
+        assert(math.floor((n * (n + 1)) / 2) == ABCDE['B'])
+        assert(n == ABCDE['C'])
+        if n == 2:
+            assert(1 == ABCDE['D'])
+        if n >= 3:
+            assert(6 * n - 14 == ABCDE['E'])
