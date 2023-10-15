@@ -1,9 +1,0 @@
-{
-    "rust-analyzer.linkedProjects": [
-        "./algs_in_rust/Cargo.toml",
-        "./algs_in_rust/Cargo.toml",
-        "./algs_in_rust/Cargo.toml",
-        "./algs_in_rust/Cargo.toml",
-        "./algs_in_rust/Cargo.toml"
-    ]
-}
