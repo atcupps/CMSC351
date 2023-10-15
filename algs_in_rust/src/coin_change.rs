@@ -4,7 +4,7 @@ use std::cmp;
 /// returns the minimum number of coins in `coins` required to make `amount`, or `None` if there
 /// is no combination of `coins` that can make `amount`.
 pub fn coin_change(coins: Vec<i32>, amount: i32) -> Option<i32> {
-    if amount < 0 || coins.len() == 0 {
+    if amount < 0 || coins.is_empty() {
         return None;
     }
 
