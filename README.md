@@ -1,0 +1,3 @@
+# CMSC351: Algorithms
+
+Hello, I am a student at the University of Maryland and these are various files I've made relating to CMSC351: Algorithms, a course focused on mathematical analysis of various algorithms, at UMD. Everything in the `algs_in_rust` folder are algorithms discussed in CMSC351 which I've written in Rust, primarily as practice to improve my Rust skills. Anything else in this repository may be algorithms written for homework, testing ideas, etc.
