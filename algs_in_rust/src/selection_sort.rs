@@ -1,4 +1,13 @@
 /// Sorts a `Vec<i32>` using selection sort, and returns the sorted list.
+/// ```rust
+/// use algs_in_rust::selection_sort::selection_sort;
+/// 
+/// let unsorted = vec![5, 4, 3, 2, 1];
+/// let sorted = selection_sort(unsorted.clone());
+/// 
+/// assert_eq!(unsorted, vec![5, 4, 3, 2, 1]);
+/// assert_eq!(sorted, vec![1, 2, 3, 4, 5]);
+/// ```
 pub fn selection_sort(mut vec: Vec<i32>) -> Vec<i32> {
     for i in 0..(vec.len()) {
         let mut min_index = i;
@@ -7,9 +16,7 @@ pub fn selection_sort(mut vec: Vec<i32>) -> Vec<i32> {
                 min_index = j;
             }
         }
-        let temp = vec[i];
-        vec[i] = vec[min_index];
-        vec[min_index] = temp;
+        vec.swap(i, min_index);
     }
 
     vec
