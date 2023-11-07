@@ -4,7 +4,7 @@ use std::cmp;
 /// returns the minimum number of coins in `coins` required to make `amount`, or `None` if there
 /// is no combination of `coins` that can make `amount`.
 /// ```rust
-/// use algs_in_rust::coin_change::coin_change; 
+/// use algs_in_rust::coin_change::coin_change;
 ///
 /// let coins = vec![1, 2, 5];
 /// let min_coins = coin_change(coins, 36);

@@ -1,10 +1,10 @@
 /// Given a `Vec<i32>`, sort it using bubble sort, and return the sorted list.
 /// ```rust
 /// use algs_in_rust::bubble_sort::bubble_sort;
-/// 
+///
 /// let unsorted = vec![5, 4, 3, 2, 1];
 /// let sorted = bubble_sort(unsorted.clone());
-/// 
+///
 /// assert_eq!(unsorted, vec![5, 4, 3, 2, 1]);
 /// assert_eq!(sorted, vec![1, 2, 3, 4, 5]);
 /// ```
